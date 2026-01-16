@@ -6,13 +6,13 @@ public class Constructor_Overloading {
 	int age;
 
 	public Constructor_Overloading(String name) {
-		System.out.println("String paramter constructor");
+		System.out.println("String paramterized constructor");
 		this.name = name;
 
 	}
 
 	public Constructor_Overloading(int age, String name) {
-		System.out.println("int & String paramter constructor");
+		System.out.println("int & String paramterized constructor");
 		this.name = name;
 		this.age = age;
 
