@@ -3,7 +3,7 @@ package javaprgms;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CountFreqOFCharInString {
+public class CountFreqOFEachChar_String {
 	
 	
 
@@ -11,6 +11,7 @@ public class CountFreqOFCharInString {
 		// TODO Auto-generated method stub
     
 		  String data="programming";
+		  System.out.println(data);
 		  Map<Character,Integer>map = new HashMap<Character, Integer>();
 		  for (char c : data.toCharArray()) // converts String to character array to iterate
 		  {

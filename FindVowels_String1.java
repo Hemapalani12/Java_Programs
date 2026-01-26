@@ -15,7 +15,7 @@ public class FindVowels_String1 {
 			{
 				vowels += ch;
 				count++;
-				}
+				}	
 
 		}
 
